@@ -1,0 +1,81 @@
+.contain{
+	margin-top:10px;
+	margin-left:748px;
+	color:green;
+	font-family:"Times New Roman", Times, serif;
+	font-style:bold;
+}
+.form{
+	height:230px;
+	width:600px;
+	margin-top:20px;
+	margin-left:498px;
+	padding:20px;
+	text-align:center;
+	background-color:lightgrey;
+}
+.check{
+	height:30px;
+	width:120px;
+	font-family:"times new roman",times,serif;
+	font-style:italic;
+	float:left;
+	margin-left:530px;
+}
+.submit{
+}
+.button{
+	background-color:lightblue;
+	border:none;
+	color:black;
+	padding:5px 10px;
+	text-align:center;
+	text-decoration:none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 2px 2px;
+	margin-top:25px;
+	margin-left:110px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.button1 {
+	background-color:lightblue; 
+	color: black;
+	border-radius:10px;
+}
+
+.button1:hover {
+	background-color:green;
+	color: white;
+}
+p{
+	color:blue;
+	text-align:center;
+	font-style:bold;
+	margin-left:65px;
+	font-size:20px;
+	font-family:initial;
+}
+a:link{
+	text-decoration:none;
+	color:chocolate;
+}
+a:visited{
+	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.account{
+	height:70px;
+	width:600px;
+	margin-left:498px;
+	color:red;
+	background-color:lightgrey;
+}

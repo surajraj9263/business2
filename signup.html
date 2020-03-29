@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>SIGN UP</title>
+<link rel="stylesheet" href="css/stylesheet3.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+ <!--navigation bar-->
+			<nav class="navbar navbar-expand-sm bg-secondary navbar-dark sticky-top">
+				<a class="navbar-brand">
+					<img src="images/logo1.jpg" alt="logo" style="width:60px;">
+				</a>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+						
+					<li class="nav-item active">
+						<a class="nav-link" href="signup.html">Sign Up</a>
+					</li>
+						
+					<li class="nav-item">
+						<a class="nav-link" href="login.html">Log In</a>
+					</li>
+						
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="support.html">Support</a>
+					</li>
+				</ul>
+			</nav>
+	<h3>Personal information:</h3>
+	<div class="personal">
+		<!--Personal information-->
+		<a href="#name" class="btn btn-primary" data-toggle="collapse">Name</a>
+		<div id="name" class="collapse">
+			<input type="text" id="fname" name="firstname" placeholder="First name">
+			<input type="text" id="mname" name="middlename" placeholder="Middle Name">
+			<input type="text" id="lname" name="lastname" placeholder="Last Name">
+		</div>
+		<a href="#fname" class="btn btn-primary" data-toggle="collapse">Father Name</a>
+		<div id="fname" class="collapse">
+			<input type="text" id="fname" name="firstname" placeholder="First name">
+			<input type="text" id="mname" name="middlename" placeholder="Middle Name">
+			<input type="text" id="lname" name="lastname" placeholder="Last Name">
+		</div>
+		<a href="#mail" class="btn btn-primary" data-toggle="collapse">E-Mail ID</a>
+		<div id="mail" class="collapse">
+			<input type="text" id="email" name="emailid" placeholder="E-Mail">
+		</div>
+		<a href="#mobno" class="btn btn-primary" data-toggle="collapse">Mobile No</a>
+		<div id="mobno" class="collapse">
+			<input type="text" id="mobno" name="mobileno" placeholder="Mobile No">
+		</div>
+	</div>
+	<div class="gender">
+		<p>Gender:</p>
+		<form action="/action_page.php">
+			<div class="custom-control custom-radio custom-control-inline">
+				<input type="radio" class="custom-control-input" id="male" name="gender" value="customEx">
+				<label class="custom-control-label" for="male">Male</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+				<input type="radio" class="custom-control-input" id="female" name="gender" value="customEx">
+				<label class="custom-control-label" for="female">Female</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+				<input type="radio" class="custom-control-input" id="other" name="gender" value="customEx">
+				<label class="custom-control-label" for="other">Other</label>
+			</div>
+		</form>
+	</div>
+	<div class="dob">
+	<h5>Date Of Birth</h5>
+		<select name="month">
+			<option value="month">Month</option>
+			<option value="january">January</option>
+			<option value="february">February</option>
+			<option value="march">March</option>
+		</select>
+		<select name="days">
+			<option value="days">Days</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+		</select>
+		<select name="years">
+			<option value="years">Years</option>
+			<option value="1985">1985</option>
+			<option value="1986">1986</option>
+		</select>
+	</div>
+	<div class="adress">
+		<br><h3>Residential Information:</h3>
+		<!--Adress information-->
+		<form>
+			<label for="house">House/Road No</label>
+				<input type="text1" id="house" name="houseroadno" placeholder="House/Road No">
+			<label for="street">Street</label>
+				<input type="text1" id="street" name="streetadress" placeholder="Street Adress"><br>
+			<label for="locality">Locality</label>
+				<input type="text1" id="locality" name="locality" placeholder="Locality">
+			<label for="city">City</label>
+				<input type="text1" id="city" name="city" placeholder="City"><br>
+			<label for="state">State</label>
+				<input type="text1" id="state" name="state" placeholder="State">
+			<label for="pin">Postal Code</label>
+				<input type="text1" id="pin" name="pincode" placeholder="Pin Code"><br>
+			<label for="mobile">Mobile No</label>
+				<input type="text1" id="mobile" name="mobileno" placeholder="Mobile No">
+		</form>
+	</div>
+	<div class="important">
+		<h3>Important Information:</h3>
+		<!--user information-->
+		<form>
+			<label for="user">User Name</label>
+				<input type="text1" id="user" name="username" placeholder="Unique ID"><br>
+			<label for="pwd">Password</label>
+				<input type="text1" id="pwd" name="password" placeholder="Password">
+			<label for="cpwd">Confirm Password</label>
+				<input type="text1" id="cpwd" name="confirmpassword" placeholder="Confirm Password">
+		</form>
+	</div>
+ </body>
+</html>
+	
